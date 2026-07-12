@@ -79,6 +79,7 @@
     font-size: 0.85rem;
     margin-top: 2rem;
   }
+  footer a { color: var(--muted); }
 </style>
 </head>
 <body>
@@ -132,6 +133,7 @@
   </div>
 
   <footer>
+    <p><a href="privacy.html" id="footer-link">Privacy Policy</a></p>
     &copy; 2026 Sanatorium Vacation
   </footer>
 
@@ -142,6 +144,7 @@
     document.getElementById('lang-ru').hidden = lang !== 'ru';
     document.getElementById('btn-en').classList.toggle('active', lang === 'en');
     document.getElementById('btn-ru').classList.toggle('active', lang === 'ru');
+    document.getElementById('footer-link').textContent = lang === 'ru' ? 'Политика конфиденциальности' : 'Privacy Policy';
     document.documentElement.lang = lang;
   }
 </script>
