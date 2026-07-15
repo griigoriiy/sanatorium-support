@@ -133,7 +133,7 @@
   </div>
 
   <footer>
-    <p><a href="privacy.html" id="footer-link">Privacy Policy</a></p>
+    <p><a href="privacy.html" id="footer-link-privacy">Privacy Policy</a> &middot; <a href="terms.html" id="footer-link-terms">Terms and Conditions</a></p>
     &copy; 2026 Sanatorium Vacation
   </footer>
 
@@ -144,7 +144,8 @@
     document.getElementById('lang-ru').hidden = lang !== 'ru';
     document.getElementById('btn-en').classList.toggle('active', lang === 'en');
     document.getElementById('btn-ru').classList.toggle('active', lang === 'ru');
-    document.getElementById('footer-link').textContent = lang === 'ru' ? 'Политика конфиденциальности' : 'Privacy Policy';
+    document.getElementById('footer-link-privacy').textContent = lang === 'ru' ? 'Политика конфиденциальности' : 'Privacy Policy';
+    document.getElementById('footer-link-terms').textContent = lang === 'ru' ? 'Условия использования' : 'Terms and Conditions';
     document.documentElement.lang = lang;
   }
 </script>

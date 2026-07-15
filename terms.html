@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Sanatorium Vacation — Terms and Conditions</title>
+<style>
+  :root {
+    --bg: #f6f4ef;
+    --card: #ffffff;
+    --text: #2b2b2b;
+    --muted: #6b6b6b;
+    --accent: #2e7d5b;
+    --border: #e3ded4;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #1c1b18;
+      --card: #262521;
+      --text: #eae7df;
+      --muted: #a8a49a;
+      --accent: #6fbf99;
+      --border: #3a3831;
+    }
+  }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    background: var(--bg);
+    color: var(--text);
+    line-height: 1.6;
+    padding: 2rem 1rem;
+  }
+  .wrap { max-width: 640px; margin: 0 auto; }
+  .lang-switch {
+    display: flex;
+    justify-content: center;
+    gap: 0;
+    margin-bottom: 2rem;
+  }
+  .lang-switch button {
+    font: inherit;
+    font-size: 0.95rem;
+    font-weight: 600;
+    color: var(--muted);
+    background: var(--card);
+    border: 1px solid var(--border);
+    padding: 0.35rem 1.2rem;
+    cursor: pointer;
+  }
+  .lang-switch button:first-child { border-radius: 8px 0 0 8px; }
+  .lang-switch button:last-child { border-radius: 0 8px 8px 0; border-left: none; }
+  .lang-switch button.active {
+    background: var(--accent);
+    border-color: var(--accent);
+    color: #fff;
+  }
+  header { text-align: center; margin-bottom: 2rem; }
+  h1 { font-size: 1.8rem; margin-bottom: 0.3rem; }
+  header p { color: var(--muted); }
+  .card {
+    background: var(--card);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    padding: 1.5rem;
+    margin-bottom: 1.25rem;
+  }
+  h2 { font-size: 1.15rem; margin: 1.4rem 0 0.6rem; color: var(--accent); }
+  .card h2:first-child { margin-top: 0; }
+  a { color: var(--accent); }
+  .email {
+    display: inline-block;
+    margin-top: 0.4rem;
+    font-size: 1.05rem;
+    font-weight: 600;
+  }
+  footer {
+    text-align: center;
+    color: var(--muted);
+    font-size: 0.85rem;
+    margin-top: 2rem;
+  }
+  footer a { color: var(--muted); }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <nav class="lang-switch">
+    <button id="btn-en" class="active" onclick="setLang('en')">EN</button>
+    <button id="btn-ru" onclick="setLang('ru')">RU</button>
+  </nav>
+
+  <div id="lang-en">
+    <header>
+      <h1>Sanatorium Vacation</h1>
+      <p>Terms and Conditions</p>
+    </header>
+
+    <div class="card">
+      <p>These Terms and Conditions apply to the <strong>Sanatorium Vacation</strong> game (hereby referred to as the "Application") for mobile devices created by the Service Provider as a free-to-use service.</p>
+      <p>By downloading or using the Application, you automatically agree to these Terms and Conditions. Please read them carefully before using the Application.</p>
+
+      <h2>License and Restrictions</h2>
+      <p>The Application, including all related intellectual property rights such as trademarks, copyrights, graphics, logos, and content, remains the property of the Service Provider.</p>
+      <p>You are not permitted to:</p>
+      <p>Copy or redistribute the Application;</p>
+      <p>Modify, reverse engineer, decompile, or attempt to extract the source code of the Application;</p>
+      <p>Translate the Application into other languages;</p>
+      <p>Create derivative works based on the Application.</p>
+      <p>Any unauthorized use of the Application is strictly prohibited.</p>
+
+      <h2>Application Usage</h2>
+      <p>The Service Provider strives to keep the Application functional, stable, and enjoyable to use. However, the Service Provider reserves the right to modify, suspend, or discontinue the Application or any part of its services at any time without prior notice.</p>
+      <p>The Application is provided on an "AS IS" and "AS AVAILABLE" basis without warranties of any kind.</p>
+
+      <h2>User Responsibilities</h2>
+      <p>You are responsible for maintaining the security of your device and access to the Application.</p>
+      <p>The Service Provider strongly recommends not rooting or jailbreaking your device, as doing so may compromise your device's security and affect the proper functioning of the Application.</p>
+
+      <h2>Internet Connectivity</h2>
+      <p>Certain features of the Application may require an active internet connection. The connection can be Wi-Fi or provided by your mobile network provider.</p>
+      <p>The Service Provider is not responsible if the Application does not function properly due to lack of internet access, weak connection, or insufficient mobile data.</p>
+
+      <h2>Mobile Charges</h2>
+      <p>If you use the Application outside of a Wi-Fi area, your mobile network provider's terms may still apply. You may incur charges for mobile data usage, roaming, or other third-party fees.</p>
+      <p>By using the Application, you accept responsibility for any such charges.</p>
+
+      <h2>Third-Party Services</h2>
+      <p>The Application may use third-party services that operate under their own Terms and Conditions and Privacy Policies.</p>
+      <p>Example:</p>
+      <p>Google Play Services</p>
+      <p>The Service Provider is not responsible for the practices, content, or policies of third-party services.</p>
+
+      <h2>Updates and Availability</h2>
+      <p>The Service Provider may release updates to improve the Application, add features, or fix issues.</p>
+      <p>You agree to install updates when available to continue using the Application properly.</p>
+      <p>The Service Provider does not guarantee that the Application will always remain compatible with all operating system versions or devices.</p>
+      <p>The Service Provider may also stop providing the Application at any time without prior notice.</p>
+      <p>Upon termination:</p>
+      <p>Your rights granted under these Terms will end;</p>
+      <p>You must stop using the Application and remove it from your device if necessary.</p>
+
+      <h2>Limitation of Liability</h2>
+      <p>While the Service Provider makes reasonable efforts to maintain accurate and reliable functionality, they are not liable for any direct or indirect damages, data loss, device issues, or other losses arising from the use or inability to use the Application.</p>
+
+      <h2>Changes to These Terms</h2>
+      <p>These Terms and Conditions may be updated periodically. Any changes will be posted on this page with a revised effective date.</p>
+      <p>Continued use of the Application after changes become effective constitutes acceptance of the updated Terms.</p>
+
+      <h2>Effective Date</h2>
+      <p>These Terms and Conditions are effective as of May 31, 2026.</p>
+
+      <h2>Contact Us</h2>
+      <p>If you have any questions or suggestions regarding these Terms and Conditions, please contact the Service Provider at:</p>
+      <a class="email" href="mailto:griigoriiy@gmail.com">griigoriiy@gmail.com</a>
+    </div>
+  </div>
+
+  <div id="lang-ru" hidden>
+    <header>
+      <h1>Sanatorium Vacation</h1>
+      <p>Условия использования</p>
+    </header>
+
+    <div class="card">
+      <p>Настоящие Условия использования применяются к игре <strong>Sanatorium Vacation</strong> (далее — «Приложение») для мобильных устройств, созданной Поставщиком услуг в качестве бесплатного сервиса.</p>
+      <p>Загружая или используя Приложение, вы автоматически соглашаетесь с настоящими Условиями использования. Пожалуйста, внимательно ознакомьтесь с ними перед использованием Приложения.</p>
+
+      <h2>Лицензия и ограничения</h2>
+      <p>Приложение, включая все связанные с ним права интеллектуальной собственности, такие как товарные знаки, авторские права, графика, логотипы и контент, остаётся собственностью Поставщика услуг.</p>
+      <p>Вам не разрешается:</p>
+      <p>Копировать или распространять Приложение;</p>
+      <p>Модифицировать, применять обратную разработку, декомпилировать или пытаться извлечь исходный код Приложения;</p>
+      <p>Переводить Приложение на другие языки;</p>
+      <p>Создавать производные работы на основе Приложения.</p>
+      <p>Любое несанкционированное использование Приложения строго запрещено.</p>
+
+      <h2>Использование Приложения</h2>
+      <p>Поставщик услуг стремится поддерживать Приложение функциональным, стабильным и приятным в использовании. Тем не менее Поставщик услуг оставляет за собой право изменять, приостанавливать или прекращать работу Приложения или любой части его сервисов в любое время без предварительного уведомления.</p>
+      <p>Приложение предоставляется на условиях «КАК ЕСТЬ» и «КАК ДОСТУПНО» без каких-либо гарантий.</p>
+
+      <h2>Обязанности пользователя</h2>
+      <p>Вы несёте ответственность за обеспечение безопасности вашего устройства и доступа к Приложению.</p>
+      <p>Поставщик услуг настоятельно рекомендует не выполнять root или jailbreak вашего устройства, поскольку это может поставить под угрозу безопасность устройства и повлиять на корректную работу Приложения.</p>
+
+      <h2>Подключение к интернету</h2>
+      <p>Для некоторых функций Приложения может потребоваться активное подключение к интернету. Подключение может осуществляться через Wi-Fi или через вашего мобильного оператора связи.</p>
+      <p>Поставщик услуг не несёт ответственности, если Приложение работает некорректно из-за отсутствия доступа в интернет, слабого сигнала или недостаточного объёма мобильного трафика.</p>
+
+      <h2>Расходы на мобильную связь</h2>
+      <p>Если вы используете Приложение вне зоны действия Wi-Fi, могут применяться условия вашего мобильного оператора. Вы можете понести расходы на использование мобильных данных, роуминг или другие сборы третьих лиц.</p>
+      <p>Используя Приложение, вы принимаете на себя ответственность за любые такие расходы.</p>
+
+      <h2>Сторонние сервисы</h2>
+      <p>Приложение может использовать сторонние сервисы, которые работают в соответствии с собственными Условиями использования и Политиками конфиденциальности.</p>
+      <p>Например:</p>
+      <p>Google Play Services</p>
+      <p>Поставщик услуг не несёт ответственности за практики, контент или политики сторонних сервисов.</p>
+
+      <h2>Обновления и доступность</h2>
+      <p>Поставщик услуг может выпускать обновления для улучшения Приложения, добавления функций или исправления проблем.</p>
+      <p>Вы соглашаетесь устанавливать доступные обновления для корректной работы Приложения.</p>
+      <p>Поставщик услуг не гарантирует, что Приложение всегда будет совместимо со всеми версиями операционных систем или устройствами.</p>
+      <p>Поставщик услуг также может прекратить предоставление Приложения в любое время без предварительного уведомления.</p>
+      <p>После прекращения:</p>
+      <p>Ваши права, предоставленные настоящими Условиями, прекращаются;</p>
+      <p>Вы обязаны прекратить использование Приложения и при необходимости удалить его с устройства.</p>
+
+      <h2>Ограничение ответственности</h2>
+      <p>Несмотря на то что Поставщик услуг прилагает разумные усилия для обеспечения точной и надёжной работы, он не несёт ответственности за какие-либо прямые или косвенные убытки, потерю данных, проблемы с устройством или иные потери, возникшие в результате использования или невозможности использования Приложения.</p>
+
+      <h2>Изменения настоящих Условий</h2>
+      <p>Настоящие Условия использования могут периодически обновляться. Все изменения будут опубликованы на этой странице с указанием новой даты вступления в силу.</p>
+      <p>Продолжение использования Приложения после вступления изменений в силу означает согласие с обновлёнными Условиями.</p>
+
+      <h2>Дата вступления в силу</h2>
+      <p>Настоящие Условия использования действуют с 31 мая 2026 года.</p>
+
+      <h2>Связаться с нами</h2>
+      <p>Если у вас есть вопросы или предложения по настоящим Условиям использования, свяжитесь с Поставщиком услуг:</p>
+      <a class="email" href="mailto:griigoriiy@gmail.com">griigoriiy@gmail.com</a>
+    </div>
+  </div>
+
+  <footer>
+    <p><a href="index.html" id="footer-link-support">Support</a> &middot; <a href="privacy.html" id="footer-link-privacy">Privacy Policy</a></p>
+    &copy; 2026 Sanatorium Vacation
+  </footer>
+
+</div>
+<script>
+  function setLang(lang) {
+    document.getElementById('lang-en').hidden = lang !== 'en';
+    document.getElementById('lang-ru').hidden = lang !== 'ru';
+    document.getElementById('btn-en').classList.toggle('active', lang === 'en');
+    document.getElementById('btn-ru').classList.toggle('active', lang === 'ru');
+    document.getElementById('footer-link-support').textContent = lang === 'ru' ? 'Поддержка' : 'Support';
+    document.getElementById('footer-link-privacy').textContent = lang === 'ru' ? 'Политика конфиденциальности' : 'Privacy Policy';
+    document.documentElement.lang = lang;
+  }
+</script>
+</body>
+</html>
